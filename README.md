@@ -6,4 +6,4 @@ RTotorial_igraph.R->
 Description: The basic commands of R for representation of data using igraph library
 
 ER_model.R.R->
-Description: Erdos-Renyi random network
+Description: Erdos Renyi random network
