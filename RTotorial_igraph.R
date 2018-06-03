@@ -8,6 +8,8 @@ library(igraph)
 ??igraph#provides all information and pakages
 ?igraph#if you are completly now the name
 
+.libPaths()# The path of libraries in the local machine
+
 # vectors in R
 x <- c(1,2,3,4,5,6,7,8,9,10)
 # return a subset of the vector
