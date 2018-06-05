@@ -10,6 +10,9 @@ library(igraph)
 
 .libPaths()# The path of libraries in the local machine
 
+rm(list=ls())  # clean all variables
+unclass(A) # shows everything in the memory
+
 # vectors in R
 x <- c(1,2,3,4,5,6,7,8,9,10)
 # return a subset of the vector
