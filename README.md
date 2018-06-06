@@ -7,3 +7,6 @@ Description: The basic commands of R for representation of data using igraph lib
 
 ER_model.R.R->
 Description: Erdos Renyi random network
+
+Network visualization resources ->
+http://kateto.net/wp-content/uploads/2016/06/Polnet%202016%20R%20Network%20Visualization%20Workshop.pdf
