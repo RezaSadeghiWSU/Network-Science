@@ -1,0 +1,11 @@
+inn <-c(2,39,4,50,2642,0,6,116,7)
+outt<-c(1,0,4,34,2642,4,2,5,1)
+categories<- c("red","blue","green","brown","pink","beige","purple","black","orange")
+
+values <- c(inn, outt)
+type <- c(rep("in degree", length(categories)), rep("out degree", length(categories)))
+mydata <-data.frame(categories, values)
+
+p <-ggplot(mydata, aes(categories, values))
+p +geom_bar(stat = "identity", aes(fill = type), position = "dodge") + theme_bw() + theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+                                                                                         panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))
